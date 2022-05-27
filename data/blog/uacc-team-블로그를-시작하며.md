@@ -3,32 +3,49 @@ title: UACC Team 블로그를 시작하며
 date: '2022-05-27'
 tags: ['team']
 draft: false
-summary: Test Post
+summary: Temporary Post
 ---
 
 ## UACC의 목표
 
-## UACC의 포부
-
-Some Javascript code
-
 ```javascript
-var num1, num2, sum
-num1 = prompt('Enter first number')
-num2 = prompt('Enter second number')
-sum = parseInt(num1) + parseInt(num2) // "+" means "add"
-alert('Sum = ' + sum) // "+" means combine into a string
+var 조영상, 이정필, 이호현, UACC
+조영상 = prompt('UACC first member')
+이정필 = prompt('UACC second member')
+이호현 = prompt('UACC second member')
+UACC = [num1, num2, num3]
+alert('UACC = ' + UACC)
 ```
 
-Some Python code 🐍
+## UACC의 포부
 
-```python
-def fib():
-    a, b = 0, 1
-    while True:            # First iteration:
-        yield a            # yield 0 to start with and then
-        a, b = b, a + b    # a will now be 1, and b will also be 1, (0 + 1)
+```javascript
+var 조영상, 이정필, 이호현, UACC
+조영상 = prompt('UACC first member')
+이정필 = prompt('UACC second member')
+이호현 = prompt('UACC second member')
+UACC = [num1, num2, num3]
+alert('UACC = ' + UACC)
+```
 
-for index, fibonacci_number in zip(range(10), fib()):
-     print('{i:3}: {f:3}'.format(i=index, f=fibonacci_number))
+## UACC의 소개
+
+```javascript
+var 조영상, 이정필, 이호현, UACC
+조영상 = prompt('UACC first member')
+이정필 = prompt('UACC second member')
+이호현 = prompt('UACC second member')
+UACC = [num1, num2, num3]
+alert('UACC = ' + UACC)
+```
+
+## UACC의 문화
+
+```javascript
+var 조영상, 이정필, 이호현, UACC
+조영상 = prompt('UACC first member')
+이정필 = prompt('UACC second member')
+이호현 = prompt('UACC second member')
+UACC = [num1, num2, num3]
+alert('UACC = ' + UACC)
 ```

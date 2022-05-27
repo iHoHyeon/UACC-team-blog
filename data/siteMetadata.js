@@ -1,7 +1,7 @@
 const siteMetadata = {
   title: 'UACC Team Blog',
   author: 'Team UACC',
-  headerTitle: 'UACC Team Blog',
+  headerTitle: 'UACC Blog',
   description: 'UACC팀의 흔적을 담는 블로그입니다.',
   language: 'ko',
   theme: 'system', // system, dark or light
