@@ -26,6 +26,13 @@ const GAScript = () => {
 
 export default GAScript
 
+// https://developers.google.com/analytics/devguides/collection/gtagjs/pages
+export const pageview = (url) => {
+  window.gtag?.('config', siteMetadata.analytics.googleAnalyticsId, {
+    page_path: url,
+  })
+}
+
 // https://developers.google.com/analytics/devguides/collection/gtagjs/events
 export const logEvent = (action, category, label, value) => {
   window.gtag?.('event', action, {
