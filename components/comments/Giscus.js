@@ -4,7 +4,7 @@ import { useTheme } from 'next-themes'
 import siteMetadata from '@/data/siteMetadata'
 
 const Giscus = () => {
-  const [enableLoadComments, setEnabledLoadComments] = useState(true)
+  const [enableLoadComments, setEnabledLoadComments] = useState(false)
   const { theme, resolvedTheme } = useTheme()
   const commentsTheme =
     siteMetadata.comment.giscusConfig.themeURL === ''
@@ -53,6 +53,10 @@ const Giscus = () => {
       if (comments) comments.innerHTML = ''
     }
   }, [commentsTheme])
+
+  useEffect(() => {
+    LoadComments()
+  }, [])
 
   // Reload on theme change
   useEffect(() => {
